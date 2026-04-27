@@ -42,15 +42,15 @@ module "authentik_token" {
 ## Requirements
 
 | Name | Version |
-|------|---------|
+| ---- | ------- |
 | <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.0 |
-| <a name="requirement_authentik"></a> [authentik](#requirement\_authentik) | ~> 2025.0 |
+| <a name="requirement_authentik"></a> [authentik](#requirement\_authentik) | ~> 2026.0 |
 
 ## Providers
 
 | Name | Version |
-|------|---------|
-| <a name="provider_authentik"></a> [authentik](#provider\_authentik) | ~> 2025.0 |
+| ---- | ------- |
+| <a name="provider_authentik"></a> [authentik](#provider\_authentik) | ~> 2026.0 |
 
 ## Modules
 
@@ -59,13 +59,13 @@ No modules.
 ## Resources
 
 | Name | Type |
-|------|------|
+| ---- | ---- |
 | [authentik_token.this](https://registry.terraform.io/providers/goauthentik/authentik/latest/docs/resources/token) | resource |
 
 ## Inputs
 
 | Name | Description | Type | Default | Required |
-|------|-------------|------|---------|:--------:|
+| ---- | ----------- | ---- | ------- | :------: |
 | <a name="input_description"></a> [description](#input\_description) | Description of the token | `string` | `null` | no |
 | <a name="input_expires"></a> [expires](#input\_expires) | The date and time the token will expire | `string` | `null` | no |
 | <a name="input_expiring"></a> [expiring](#input\_expiring) | Whether or not the token will expire | `bool` | `true` | no |
@@ -77,7 +77,7 @@ No modules.
 ## Outputs
 
 | Name | Description |
-|------|-------------|
+| ---- | ----------- |
 | <a name="output_expires_in"></a> [expires\_in](#output\_expires\_in) | The time the token will expire |
 | <a name="output_id"></a> [id](#output\_id) | The ID of this resource |
 | <a name="output_key"></a> [key](#output\_key) | The key of the token |

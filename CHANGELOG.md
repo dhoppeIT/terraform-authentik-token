@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file.
 
+## [1.2.0](https://gitlab.com/terraform-child-modules-48151/terraform-authentik-token/compare/v1.1.0...v1.2.0) (2026-04-27)
+
+### Features
+
+* **terraform:** Add support for Authentik 2026.x ([2874872](https://gitlab.com/terraform-child-modules-48151/terraform-authentik-token/commit/2874872d938e7bdfe38c9fa4dbd96a685e4e21bf))
+
 ## [1.1.0](https://gitlab.com/terraform-child-modules-48151/terraform-authentik-token/compare/v1.0.0...v1.1.0) (2025-05-20)
 
 ### Features
